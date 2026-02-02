@@ -1,0 +1,372 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@edutech.com",
+      "password": "password123",
+      "name": "Super Admin",
+      "role": "ADMIN"
+    },
+    {
+      "id": "2",
+      "email": "trainer@edutech.com",
+      "password": "password123",
+      "name": "John Trainer",
+      "role": "TRAINER"
+    },
+    {
+      "id": "3",
+      "email": "client@techcorp.com",
+      "password": "password123",
+      "name": "Alice Smith",
+      "role": "CLIENT",
+      "companyId": "c1"
+    },
+    {
+      "id": "tszc44cc4",
+      "email": "harini@gmail.com",
+      "password": "Dwc68FQ6",
+      "name": "Harini",
+      "role": "TRAINER"
+    },
+    {
+      "id": "x96a5eudd",
+      "email": "sri@gmail.com",
+      "password": "7ji!bNSL",
+      "name": "sri",
+      "role": "TRAINER"
+    },
+    {
+      "id": "sih9sd2t3",
+      "email": "hari@gmail.com",
+      "password": "fgL6r#tR",
+      "name": "hari",
+      "role": "TRAINER"
+    }
+  ],
+  "trainers": [
+    {
+      "id": "2",
+      "name": "John Trainer",
+      "email": "trainer@edutech.com",
+      "techStack": [
+        "Angular",
+        "React",
+        "Node.js"
+      ],
+      "experience": 8,
+      "rating": 4.8,
+      "availability": true,
+      "workload": 1
+    },
+    {
+      "id": "9w6nqd77u",
+      "name": "Riya",
+      "email": "riya@gmail.com",
+      "techStack": [
+        "Java",
+        "Springboot"
+      ],
+      "experience": 5,
+      "rating": 4.8,
+      "availability": true,
+      "workload": 0
+    },
+    {
+      "id": "xo9wavfsy",
+      "name": "srinitha",
+      "email": "srinitha@gmail.com",
+      "techStack": [
+        "java Full Stack"
+      ],
+      "experience": 8,
+      "rating": 5,
+      "availability": true,
+      "workload": 0
+    },
+    {
+      "id": "tszc44cc4",
+      "name": "Harini",
+      "email": "harini@gmail.com",
+      "techStack": [
+        "Angular",
+        "Java",
+        "SQL"
+      ],
+      "experience": 10,
+      "rating": 5,
+      "availability": true,
+      "workload": 0
+    },
+    {
+      "id": "11hy4s4ik",
+      "name": "krish",
+      "email": "ksrish@gmail.com",
+      "techStack": [
+        "DOt net"
+      ],
+      "experience": 5,
+      "rating": 5,
+      "availability": true,
+      "workload": 0
+    }
+  ],
+  "clients": [
+    {
+      "id": "c1",
+      "name": "Tech Corp",
+      "contactPerson": "Alice Smith",
+      "email": "alice@techcorp.com"
+    }
+  ],
+  "trainings": [
+    {
+      "id": "380d",
+      "title": "Java",
+      "technology": "Springboot",
+      "preferredDates": "2026-02-01",
+      "budget": 200000,
+      "clientId": "c1",
+      "status": "Trainer Assigned",
+      "clientPO": {
+        "filename": "PO_Pending.pdf",
+        "status": "Uploaded"
+      },
+      "trainerId": "9w6nqd77u",
+      "trainerPO": {
+        "filename": "TPO_9w6nqd77u_380d.pdf",
+        "status": "Generated"
+      },
+      "clientInvoice": null,
+      "trainerInvoice": null
+    },
+    {
+      "id": "6a81",
+      "title": "Angular Training",
+      "technology": "Angular",
+      "preferredDates": "2026-02-01",
+      "budget": 200000,
+      "clientId": "c1",
+      "status": "Payment Done",
+      "clientPO": {
+        "filename": "PO_Pending.pdf",
+        "status": "Uploaded"
+      },
+      "trainerId": "2",
+      "trainerPO": {
+        "filename": "TPO_2_6a81.pdf",
+        "status": "Accepted"
+      },
+      "clientInvoice": {
+        "invoiceNumber": "INV-CL-4850",
+        "companyName": "Tech Corp",
+        "trainingName": "Angular Training",
+        "technology": "Angular",
+        "duration": "5 Days",
+        "cost": 200000,
+        "gst": 36000,
+        "totalAmount": 236000,
+        "dueDate": "2026-02-15T17:40:39.200Z",
+        "poReference": "PO_Pending.pdf",
+        "status": "Paid"
+      },
+      "trainerInvoice": null
+    },
+    {
+      "id": "f5d4",
+      "title": "DB ",
+      "technology": "SQL",
+      "preferredDates": "2026-02-01",
+      "budget": 10000,
+      "clientId": "c1",
+      "status": "Active",
+      "clientPO": {
+        "filename": "PO_Pending.pdf",
+        "status": "Uploaded"
+      },
+      "trainerId": "tszc44cc4",
+      "trainerPO": {
+        "filename": "TPO_tszc44cc4_f5d4.pdf",
+        "status": "Accepted"
+      },
+      "clientInvoice": null,
+      "trainerInvoice": null
+    },
+    {
+      "id": "6e60",
+      "title": "Trainig for dot net",
+      "technology": "Dot net",
+      "preferredDates": "2026-02-03",
+      "budget": 200000,
+      "clientId": "c1",
+      "status": "Trainer Assigned",
+      "clientPO": {
+        "filename": "PO_Pending.pdf",
+        "status": "Uploaded"
+      },
+      "trainerId": null,
+      "trainerPO": {
+        "filename": "TPO_sih9sd2t3_6e60.pdf",
+        "status": "Generated"
+      },
+      "clientInvoice": null,
+      "trainerInvoice": null
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "a1",
+      "timestamp": "2026-01-31T22:00:00Z",
+      "userId": "1",
+      "action": "ASSIGN_TRAINER",
+      "details": "Assigned John Trainer to Angular Advanced Mastery"
+    },
+    {
+      "id": "3b29",
+      "timestamp": "2026-01-31T17:07:00.473Z",
+      "userId": "3",
+      "action": "RAISE_REQUEST",
+      "details": "Client raised request for Java"
+    },
+    {
+      "id": "cf74",
+      "timestamp": "2026-01-31T17:19:01.822Z",
+      "userId": "3",
+      "action": "RAISE_REQUEST",
+      "details": "Client raised request for Angular Training"
+    },
+    {
+      "id": "9906",
+      "timestamp": "2026-01-31T17:20:45.478Z",
+      "userId": "2",
+      "action": "ACCEPT_PO",
+      "details": "John Trainer accepted PO for Angular Training"
+    },
+    {
+      "id": "c8cb",
+      "timestamp": "2026-01-31T17:20:48.918Z",
+      "userId": "2",
+      "action": "MARK_COMPLETED",
+      "details": "John Trainer completed Angular Training"
+    },
+    {
+      "id": "ec40",
+      "timestamp": "2026-01-31T17:40:39.211Z",
+      "userId": "1",
+      "action": "GENERATE_INVOICE",
+      "details": "Generated client invoice INV-CL-4850 for Angular Training"
+    },
+    {
+      "id": "6156",
+      "timestamp": "2026-01-31T19:28:37.850Z",
+      "userId": "3",
+      "action": "PAYMENT_DONE",
+      "details": "Client marked payment as done for invoice INV-CL-4850"
+    },
+    {
+      "id": "214f",
+      "timestamp": "2026-01-31T19:47:38.140Z",
+      "userId": "admin",
+      "action": "TRAINER_ONBOARDING_EMAIL_SENT",
+      "details": "Sent onboarding email to srinitha@gmail.com. Credentials: [Password: n6v@&Qy^]"
+    },
+    {
+      "id": "be3b",
+      "timestamp": "2026-01-31T19:54:25.353Z",
+      "userId": "admin",
+      "action": "TRAINER_ONBOARDING_EMAIL_SENT",
+      "details": "Sent onboarding email to harini@gmail.com. Credentials: [Password: Dwc68FQ6]"
+    },
+    {
+      "id": "b0af",
+      "timestamp": "2026-01-31T19:56:47.796Z",
+      "userId": "3",
+      "action": "RAISE_REQUEST",
+      "details": "Client raised request for DB "
+    },
+    {
+      "id": "5f04",
+      "timestamp": "2026-01-31T19:57:56.883Z",
+      "userId": "tszc44cc4",
+      "action": "ACCEPT_PO",
+      "details": "Harini accepted PO for DB "
+    },
+    {
+      "id": "bbf9",
+      "timestamp": "2026-02-02T06:16:00.998Z",
+      "userId": "admin",
+      "action": "TRAINER_ONBOARDING_EMAIL_SENT",
+      "details": "Sent onboarding email to sri@gmail.com. Credentials: [Password: 7ji!bNSL]"
+    },
+    {
+      "id": "7868",
+      "timestamp": "2026-02-02T06:19:05.978Z",
+      "userId": "admin",
+      "action": "TRAINER_ONBOARDING_EMAIL_SENT",
+      "details": "Sent onboarding email to hari@gmail.com. Credentials: [Password: fgL6r#tR]"
+    },
+    {
+      "id": "e1a4",
+      "timestamp": "2026-02-02T06:20:29.590Z",
+      "userId": "3",
+      "action": "RAISE_REQUEST",
+      "details": "Client raised request for Trainig for dot net"
+    },
+    {
+      "id": "6702",
+      "timestamp": "2026-02-02T06:22:02.434Z",
+      "userId": "admin",
+      "action": "TRAINER_ONBOARDING_EMAIL_SENT",
+      "details": "Sent onboarding email to ksrish@gmail.com. Credentials: [Password: D$t8ZN68]"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "userId": "3",
+      "message": "Your training request 'Angular Advanced Mastery' has been assigned to a trainer.",
+      "read": false,
+      "timestamp": "2026-01-31T22:05:00Z"
+    },
+    {
+      "id": "ippg1ohct",
+      "userId": "xo9wavfsy",
+      "message": "Welcome srinitha! Your account is ready. Your temporary password is: n6v@&Qy^",
+      "type": "WELCOME",
+      "timestamp": "2026-01-31T19:47:38.141Z",
+      "read": false
+    },
+    {
+      "id": "qdhk6yakc",
+      "userId": "tszc44cc4",
+      "message": "Welcome Harini! Your account is ready. Your temporary password is: Dwc68FQ6",
+      "type": "WELCOME",
+      "timestamp": "2026-01-31T19:54:25.354Z",
+      "read": false
+    },
+    {
+      "id": "3m38j0ztv",
+      "userId": "x96a5eudd",
+      "message": "Welcome sri! Your account is ready. Your temporary password is: 7ji!bNSL",
+      "type": "WELCOME",
+      "timestamp": "2026-02-02T06:16:00.999Z",
+      "read": false
+    },
+    {
+      "id": "93pczf01o",
+      "userId": "sih9sd2t3",
+      "message": "Welcome hari! Your account is ready. Your temporary password is: fgL6r#tR",
+      "type": "WELCOME",
+      "timestamp": "2026-02-02T06:19:05.979Z",
+      "read": false
+    },
+    {
+      "id": "n6u7l3j53",
+      "userId": "11hy4s4ik",
+      "message": "Welcome krish! Your account is ready. Your temporary password is: D$t8ZN68",
+      "type": "WELCOME",
+      "timestamp": "2026-02-02T06:22:02.435Z",
+      "read": false
+    }
+  ]
+}

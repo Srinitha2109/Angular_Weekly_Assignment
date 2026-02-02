@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 font-sans min-h-screen;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+}
