@@ -15,6 +15,7 @@ export const routes: Routes = [
             { path: 'trainers', loadComponent: () => import('./features/admin/trainers/trainers.component').then(m => m.AdminTrainersComponent) },
             { path: 'enrollments', loadComponent: () => import('./features/admin/enrollments/enrollments.component').then(m => m.AdminEnrollmentsComponent) },
             { path: 'finance', loadComponent: () => import('./features/admin/finance/finance.component').then(m => m.AdminFinanceComponent) },
+            { path: 'requests', loadComponent: () => import('./features/admin/requests/requests.component').then(m => m.AdminRequestsComponent) },
         ]
     },
     {

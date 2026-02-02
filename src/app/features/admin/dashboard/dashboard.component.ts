@@ -31,6 +31,9 @@ import { DataService } from '../../../core/services/data.service';
           <a routerLink="finance" routerLinkActive="bg-primary-50 text-primary-600" class="flex items-center px-4 py-3 rounded-xl text-slate-600 hover:bg-slate-50 transition-colors">
             <span class="mr-3 text-lg"></span> Finance
           </a>
+          <a routerLink="requests" routerLinkActive="bg-primary-50 text-primary-600" class="flex items-center px-4 py-3 rounded-xl text-slate-600 hover:bg-slate-50 transition-colors">
+            <span class="mr-3 text-lg"></span> Requests
+          </a>
         </nav>
 
         <div class="mt-auto pt-6 border-t border-slate-100">

@@ -20,13 +20,13 @@ import { DataService } from '../../../core/services/data.service';
 
         <nav class="flex-1 space-y-2">
           <a routerLink="/trainer" routerLinkActive="bg-primary-50 text-primary-600" [routerLinkActiveOptions]="{exact: true}" class="flex items-center px-4 py-3 rounded-xl text-slate-600 hover:bg-slate-50 transition-colors">
-            <span class="mr-3 text-lg">📊</span> Dashboard
+            <span class="mr-3 text-lg"></span> Dashboard
           </a>
           <a routerLink="assignments" routerLinkActive="bg-primary-50 text-primary-600" class="flex items-center px-4 py-3 rounded-xl text-slate-600 hover:bg-slate-50 transition-colors">
-            <span class="mr-3 text-lg">📚</span> My Trainings
+            <span class="mr-3 text-lg"></span> My Trainings
           </a>
           <a routerLink="invoices" routerLinkActive="bg-primary-50 text-primary-600" class="flex items-center px-4 py-3 rounded-xl text-slate-600 hover:bg-slate-50 transition-colors">
-            <span class="mr-3 text-lg">📄</span> My Invoices
+            <span class="mr-3 text-lg"></span> My Invoices
           </a>
         </nav>
 

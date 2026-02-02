@@ -1,4 +1,17 @@
 {
+  "registrationRequests": [
+    {
+      "id": "1obcymm1a",
+      "name": "Surya",
+      "email": "surya@gmail.com",
+      "role": "CLIENT",
+      "techStack": "",
+      "company": "Hartford",
+      "bio": "",
+      "status": "Approved",
+      "timestamp": "2026-02-02T06:41:41.138Z"
+    }
+  ],
   "users": [
     {
       "id": "1",
@@ -42,6 +55,13 @@
       "password": "fgL6r#tR",
       "name": "hari",
       "role": "TRAINER"
+    },
+    {
+      "id": "1obcymm1a",
+      "email": "surya@gmail.com",
+      "password": "wa2@6AFm",
+      "name": "Surya",
+      "role": "CLIENT"
     }
   ],
   "trainers": [
@@ -117,6 +137,14 @@
       "name": "Tech Corp",
       "contactPerson": "Alice Smith",
       "email": "alice@techcorp.com"
+    },
+    {
+      "id": "1obcymm1a",
+      "name": "Surya",
+      "email": "surya@gmail.com",
+      "company": "Hartford",
+      "activeTrainings": 0,
+      "totalSpent": 0
     }
   ],
   "trainings": [
@@ -318,6 +346,13 @@
       "userId": "admin",
       "action": "TRAINER_ONBOARDING_EMAIL_SENT",
       "details": "Sent onboarding email to ksrish@gmail.com. Credentials: [Password: D$t8ZN68]"
+    },
+    {
+      "id": "e05d",
+      "timestamp": "2026-02-02T06:42:01.614Z",
+      "userId": "admin",
+      "action": "APPROVE_REGISTRATION",
+      "details": "Admin approved CLIENT request from surya@gmail.com. Credentials: [Password: wa2@6AFm]"
     }
   ],
   "notifications": [
@@ -366,6 +401,14 @@
       "message": "Welcome krish! Your account is ready. Your temporary password is: D$t8ZN68",
       "type": "WELCOME",
       "timestamp": "2026-02-02T06:22:02.435Z",
+      "read": false
+    },
+    {
+      "id": "schftygoi",
+      "userId": "1obcymm1a",
+      "message": "Your registration request has been approved! Temporary password: wa2@6AFm",
+      "type": "WELCOME",
+      "timestamp": "2026-02-02T06:42:01.616Z",
       "read": false
     }
   ]
